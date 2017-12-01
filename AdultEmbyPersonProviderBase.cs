@@ -225,7 +225,6 @@ namespace AdultEmby.Plugins.Base
 
                 if (!string.IsNullOrWhiteSpace(birthPlace))
                 {
-                    //item.PlaceOfBirth = birthPlace;
                     item.ProductionLocations = new string[] { birthPlace };
                 }
 
